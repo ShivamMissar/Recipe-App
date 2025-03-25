@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".vegrecipes">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="0dp">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/vegRecBottomNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/navigation">
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pancake"
+        android:contentDescription="button for creamy pasta"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/yellow"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-18dp"
+            app:srcCompat="@drawable/creamy_mushroom_pasta"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="172dp"
+            android:fontFamily="@font/abeezee"
+            android:text="Creamy pasta"
+            android:textColor="@color/textColor"
+            android:textSize="17dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/veganRamen"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/yellow"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        android:contentDescription="button for ramen noodles"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="190dp"
+            android:layout_height="205dp"
+            android:layout_marginTop="-22dp"
+            app:srcCompat="@drawable/vegan_ramen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="17dp"
+                android:layout_marginTop="170dp"
+                android:layout_gravity="center_horizontal"
+                android:text=" Ramen noodles "/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Tomato_risotto"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/yellow"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        android:contentDescription="button for rissoto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="186dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginLeft="-14dp"
+            app:srcCompat="@drawable/tomato_risotto"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="170dp"
+            android:fontFamily="@font/abeezee"
+            android:text="Tomato Rissito"
+            android:textColor="@color/textColor"
+            android:textSize="17dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/veggie_blt"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/yellow"
+        app:cardCornerRadius="5dp"
+        android:contentDescription="button for blt "
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="186dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="-15dp"
+            android:layout_marginTop="-15dp"
+            app:srcCompat="@drawable/veggie_blt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="172dp"
+            android:fontFamily="@font/abeezee"
+            android:text="BLT"
+            android:textColor="@color/textColor"
+            android:textSize="17dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/VegTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:text="Vegetarian Recipes"
+        android:textColor="@color/textColor"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carrotSoup"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/yellow"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        android:contentDescription="button for carrot soup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/carrotSoupImage"
+            android:layout_width="170dp"
+            android:layout_height="205dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-16dp"
+
+            app:srcCompat="@drawable/carrotsoup"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:fontFamily="@font/abeezee"
+            android:text="Carrot Soup"
+            android:textColor="@color/textColor"
+            android:textSize="17dp"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="199dp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/FalafelBurger"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/yellow"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        android:contentDescription="button for falafel burger"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="190dp"
+            android:layout_height="205dp"
+            android:layout_marginTop="-18dp"
+            app:srcCompat="@drawable/falafelburger" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="172dp"
+            android:fontFamily="@font/abeezee"
+            android:text="FalafelBurger"
+            android:textColor="@color/textColor"
+            android:textSize="17dp" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

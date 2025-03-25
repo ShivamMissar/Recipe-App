@@ -1,0 +1,522 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.recipeapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:6:5-81
+12-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:7:5-79
+13-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:8:5-79
+14-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+15-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:9:5-98
+15-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:9:22-95
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+25    </queries>
+26
+27    <application
+27-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:11:5-165:19
+28        android:allowBackup="true"
+28-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:12:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.8.0] /Users/shivammissar/.gradle/caches/transforms-3/c38c9897533ea665b0378c3de92802fc/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:13:9-65
+31        android:debuggable="true"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:14:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:15:9-43
+34        android:label="@string/app_name"
+34-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:16:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:17:9-54
+36        android:supportsRtl="true"
+36-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:18:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.RecipeApp" >
+38-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:19:9-47
+39        <activity
+39-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:21:9-23:40
+40            android:name="com.example.recipeapp.mealplanner"
+40-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:22:13-40
+41            android:exported="false" />
+41-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:23:13-37
+42        <!--
+43             TODO: Before you run your application, you need a Google Maps API key.
+44
+45             To get one, follow the directions here:
+46
+47                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+48
+49             Once you have your API key (it starts with "AIza"), define a new property in your
+50             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+51             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+52        -->
+53        <meta-data
+53-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:35:9-37:71
+54            android:name="com.google.android.geo.API_KEY"
+54-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:36:13-58
+55            android:value="AIzaSyChtcda2og20XCf0bjGOBaSgSDwjPIHmE4" />
+55-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:37:13-68
+56        <meta-data
+56-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:38:9-40:57
+57            android:name="preloaded_fonts"
+57-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:39:13-43
+58            android:resource="@array/preloaded_fonts" />
+58-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:40:13-54
+59
+60        <activity
+60-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:42:9-44:40
+61            android:name="com.example.recipeapp.cauliflowerCheese"
+61-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:43:13-46
+62            android:exported="false" />
+62-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:44:13-37
+63        <activity
+63-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:45:9-47:40
+64            android:name="com.example.recipeapp.veggieChilli"
+64-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:46:13-41
+65            android:exported="false" />
+65-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:47:13-37
+66        <activity
+66-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:48:9-50:40
+67            android:name="com.example.recipeapp.oats"
+67-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:49:13-33
+68            android:exported="false" />
+68-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:50:13-37
+69        <activity
+69-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:51:9-53:40
+70            android:name="com.example.recipeapp.chickenKiev"
+70-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:52:13-40
+71            android:exported="false" />
+71-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:53:13-37
+72        <activity
+72-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:54:9-56:40
+73            android:name="com.example.recipeapp.pancake"
+73-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:55:13-36
+74            android:exported="false" />
+74-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:56:13-37
+75        <activity
+75-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:57:9-59:40
+76            android:name="com.example.recipeapp.spongeCake"
+76-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:58:13-39
+77            android:exported="false" />
+77-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:59:13-37
+78        <activity
+78-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:60:9-62:40
+79            android:name="com.example.recipeapp.chickennoodleSoup"
+79-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:61:13-46
+80            android:exported="false" />
+80-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:62:13-37
+81        <activity
+81-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:63:9-65:40
+82            android:name="com.example.recipeapp.salmonSalad"
+82-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:64:13-40
+83            android:exported="false" />
+83-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:65:13-37
+84        <activity
+84-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:66:9-68:40
+85            android:name="com.example.recipeapp.chickenFriedRice"
+85-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:67:13-45
+86            android:exported="false" />
+86-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:68:13-37
+87        <activity
+87-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:69:9-71:40
+88            android:name="com.example.recipeapp.prawnSpaghetti"
+88-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:70:13-43
+89            android:exported="false" />
+89-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:71:13-37
+90        <activity
+90-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:72:9-74:40
+91            android:name="com.example.recipeapp.tunaBurger"
+91-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:73:13-39
+92            android:exported="false" />
+92-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:74:13-37
+93        <activity
+93-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:75:9-77:40
+94            android:name="com.example.recipeapp.spinachChicken"
+94-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:76:13-43
+95            android:exported="false" />
+95-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:77:13-37
+96        <activity
+96-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:78:9-80:40
+97            android:name="com.example.recipeapp.veggieBLTpage"
+97-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:79:13-42
+98            android:exported="false" />
+98-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:80:13-37
+99        <activity
+99-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:81:9-83:40
+100            android:name="com.example.recipeapp.falafelBurgerPage"
+100-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:82:13-46
+101            android:exported="false" />
+101-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:83:13-37
+102        <activity
+102-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:84:9-86:40
+103            android:name="com.example.recipeapp.tomatoRissitoPage"
+103-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:85:13-46
+104            android:exported="false" />
+104-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:86:13-37
+105        <activity
+105-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:87:9-89:40
+106            android:name="com.example.recipeapp.ramenNoodlesPage"
+106-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:88:13-45
+107            android:exported="false" />
+107-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:89:13-37
+108        <activity
+108-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:90:9-92:40
+109            android:name="com.example.recipeapp.pasta"
+109-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:91:13-34
+110            android:exported="false" />
+110-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:92:13-37
+111        <activity
+111-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:93:9-95:40
+112            android:name="com.example.recipeapp.updatePassword"
+112-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:94:13-43
+113            android:exported="false" />
+113-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:95:13-37
+114        <activity
+114-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:96:9-98:40
+115            android:name="com.example.recipeapp.updateEmail"
+115-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:97:13-40
+116            android:exported="false" />
+116-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:98:13-37
+117        <activity
+117-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:99:9-101:40
+118            android:name="com.example.recipeapp.forgottenPassword"
+118-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:100:13-46
+119            android:exported="false" />
+119-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:101:13-37
+120        <activity
+120-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:102:9-104:40
+121            android:name="com.example.recipeapp.favourites"
+121-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:103:13-39
+122            android:exported="false" />
+122-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:104:13-37
+123        <activity
+123-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:105:9-107:40
+124            android:name="com.example.recipeapp.manageAccount"
+124-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:106:13-42
+125            android:exported="false" />
+125-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:107:13-37
+126        <activity
+126-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:108:9-110:40
+127            android:name="com.example.recipeapp.settings"
+127-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:109:13-37
+128            android:exported="false" />
+128-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:110:13-37
+129        <activity
+129-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:111:9-113:40
+130            android:name="com.example.recipeapp.mainMenu"
+130-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:112:13-37
+131            android:exported="false" />
+131-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:113:13-37
+132        <activity
+132-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:114:9-116:40
+133            android:name="com.example.recipeapp.carrotSoupPage"
+133-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:115:13-43
+134            android:exported="false" />
+134-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:116:13-37
+135        <activity
+135-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:117:9-123:20
+136            android:name="com.example.recipeapp.other_recipes"
+136-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:118:13-42
+137            android:exported="false" >
+137-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:119:13-37
+138            <meta-data
+138-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:120:13-122:36
+139                android:name="android.app.lib_name"
+139-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:121:17-52
+140                android:value="" />
+140-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:122:17-33
+141        </activity>
+142        <activity
+142-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:124:9-130:20
+143            android:name="com.example.recipeapp.non_veg_recipes"
+143-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:125:13-44
+144            android:exported="false" >
+144-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:126:13-37
+145            <meta-data
+145-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:120:13-122:36
+146                android:name="android.app.lib_name"
+146-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:121:17-52
+147                android:value="" />
+147-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:122:17-33
+148        </activity>
+149        <activity
+149-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:131:9-137:20
+150            android:name="com.example.recipeapp.vegrecipes"
+150-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:132:13-39
+151            android:exported="false" >
+151-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:133:13-37
+152            <meta-data
+152-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:120:13-122:36
+153                android:name="android.app.lib_name"
+153-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:121:17-52
+154                android:value="" />
+154-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:122:17-33
+155        </activity>
+156        <activity
+156-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:138:9-144:20
+157            android:name="com.example.recipeapp.loginScreen"
+157-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:139:13-40
+158            android:exported="false" >
+158-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:140:13-37
+159            <meta-data
+159-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:120:13-122:36
+160                android:name="android.app.lib_name"
+160-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:121:17-52
+161                android:value="" />
+161-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:122:17-33
+162        </activity>
+163        <activity
+163-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:145:9-151:20
+164            android:name="com.example.recipeapp.signUpScreen"
+164-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:146:13-41
+165            android:exported="false" >
+165-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:147:13-37
+166            <meta-data
+166-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:120:13-122:36
+167                android:name="android.app.lib_name"
+167-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:121:17-52
+168                android:value="" />
+168-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:122:17-33
+169        </activity>
+170        <activity
+170-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:152:9-164:20
+171            android:name="com.example.recipeapp.MainActivity"
+171-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:153:13-41
+172            android:exported="true" >
+172-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:154:13-36
+173            <intent-filter>
+173-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:155:13-159:29
+174                <action android:name="android.intent.action.MAIN" />
+174-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:156:17-69
+174-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:156:25-66
+175
+176                <category android:name="android.intent.category.LAUNCHER" />
+176-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:158:17-77
+176-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:158:27-74
+177            </intent-filter>
+178
+179            <meta-data
+179-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:120:13-122:36
+180                android:name="android.app.lib_name"
+180-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:121:17-52
+181                android:value="" />
+181-->/Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:122:17-33
+182        </activity>
+183
+184        <service
+184-->[com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:16:9-22:19
+185            android:name="com.google.firebase.components.ComponentDiscoveryService"
+185-->[com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:17:13-84
+186            android:directBootAware="true"
+186-->[com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+187            android:exported="false" >
+187-->[com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:18:13-37
+188            <meta-data
+188-->[com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:19:13-21:85
+189                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+189-->[com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:20:17-111
+190                android:value="com.google.firebase.components.ComponentRegistrar" />
+190-->[com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:21:17-82
+191            <meta-data
+191-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+192                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+192-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+193                android:value="com.google.firebase.components.ComponentRegistrar" />
+193-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+194            <meta-data
+194-->[com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+195                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+195-->[com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+196                android:value="com.google.firebase.components.ComponentRegistrar" />
+196-->[com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+197            <meta-data
+197-->[com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+198                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+198-->[com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+199                android:value="com.google.firebase.components.ComponentRegistrar" />
+199-->[com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+200        </service>
+201
+202        <activity
+202-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+203            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+203-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+204            android:excludeFromRecents="true"
+204-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+205            android:exported="true"
+205-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+206            android:launchMode="singleTask"
+206-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+207            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+207-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+208            <intent-filter>
+208-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+209                <action android:name="android.intent.action.VIEW" />
+209-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+209-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+210
+211                <category android:name="android.intent.category.DEFAULT" />
+211-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+211-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+212                <category android:name="android.intent.category.BROWSABLE" />
+212-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+212-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+213
+214                <data
+214-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+215                    android:host="firebase.auth"
+215-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+216                    android:path="/"
+216-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+217                    android:scheme="genericidp" />
+217-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+218            </intent-filter>
+219        </activity>
+220        <activity
+220-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+221            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+221-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+222            android:excludeFromRecents="true"
+222-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+223            android:exported="true"
+223-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+224            android:launchMode="singleTask"
+224-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+225            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+225-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+226            <intent-filter>
+226-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+227                <action android:name="android.intent.action.VIEW" />
+227-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+227-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+228
+229                <category android:name="android.intent.category.DEFAULT" />
+229-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+229-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+230                <category android:name="android.intent.category.BROWSABLE" />
+230-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+230-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+231
+232                <data
+232-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+233                    android:host="firebase.auth"
+233-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+234                    android:path="/"
+234-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+235                    android:scheme="recaptcha" />
+235-->[com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+236            </intent-filter>
+237        </activity>
+238
+239        <provider
+239-->[com.squareup.picasso:picasso:2.71828] /Users/shivammissar/.gradle/caches/transforms-3/09f34c5b07a82643dadade502e707e02/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+240            android:name="com.squareup.picasso.PicassoProvider"
+240-->[com.squareup.picasso:picasso:2.71828] /Users/shivammissar/.gradle/caches/transforms-3/09f34c5b07a82643dadade502e707e02/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+241            android:authorities="com.example.recipeapp.com.squareup.picasso"
+241-->[com.squareup.picasso:picasso:2.71828] /Users/shivammissar/.gradle/caches/transforms-3/09f34c5b07a82643dadade502e707e02/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+242            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+242-->[com.squareup.picasso:picasso:2.71828] /Users/shivammissar/.gradle/caches/transforms-3/09f34c5b07a82643dadade502e707e02/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+243        <uses-library
+243-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+244            android:name="org.apache.http.legacy"
+244-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+245            android:required="false" />
+245-->[com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+246
+247        <provider
+247-->[com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+248            android:name="com.google.firebase.provider.FirebaseInitProvider"
+248-->[com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+249            android:authorities="com.example.recipeapp.firebaseinitprovider"
+249-->[com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+250            android:directBootAware="true"
+250-->[com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+251            android:exported="false"
+251-->[com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+252            android:initOrder="100" />
+252-->[com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+253
+254        <activity
+254-->[com.google.android.gms:play-services-base:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/30a51c6cd63ac41872e56406b1dd293f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+255            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+255-->[com.google.android.gms:play-services-base:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/30a51c6cd63ac41872e56406b1dd293f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+256            android:exported="false"
+256-->[com.google.android.gms:play-services-base:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/30a51c6cd63ac41872e56406b1dd293f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+257            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+257-->[com.google.android.gms:play-services-base:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/30a51c6cd63ac41872e56406b1dd293f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+258
+259        <meta-data
+259-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/a852a08f8c55c7943592e85d28b6611e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+260            android:name="com.google.android.gms.version"
+260-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/a852a08f8c55c7943592e85d28b6611e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+261            android:value="@integer/google_play_services_version" />
+261-->[com.google.android.gms:play-services-basement:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/a852a08f8c55c7943592e85d28b6611e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+262
+263        <provider
+263-->[androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+264            android:name="androidx.startup.InitializationProvider"
+264-->[androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+265            android:authorities="com.example.recipeapp.androidx-startup"
+265-->[androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+266            android:exported="false" >
+266-->[androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+267            <meta-data
+267-->[androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+268                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+268-->[androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+269                android:value="androidx.startup" />
+269-->[androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+270            <meta-data
+270-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f705496ddb79348a25bbf808a50da23b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+271                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+271-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f705496ddb79348a25bbf808a50da23b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+272                android:value="androidx.startup" />
+272-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f705496ddb79348a25bbf808a50da23b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+273        </provider>
+274
+275        <uses-library
+275-->[androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+276            android:name="androidx.window.extensions"
+276-->[androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+277            android:required="false" />
+277-->[androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+278        <uses-library
+278-->[androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+279            android:name="androidx.window.sidecar"
+279-->[androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+280            android:required="false" />
+280-->[androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+281    </application>
+282
+283</manifest>

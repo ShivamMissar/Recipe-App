@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".other_recipes">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/othersBottomNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/navigation"
+            android:layout_alignParentBottom="true">
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/creamyPasta"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/yellow"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="button for pancake recipe"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="190dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-14dp"
+            app:srcCompat="@drawable/pancake"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="172dp"
+            android:fontFamily="@font/abeezee"
+            android:text="pancake"
+            android:textColor="@color/textColor"
+            android:textSize="17dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/MicrowaveCauliflowerCheese"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/yellow"
+        android:contentDescription="button for cauliflower cheese recipe"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="190dp"
+            android:layout_height="205dp"
+            android:layout_marginTop="-22dp"
+            app:srcCompat="@drawable/cauliflowercheese"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="170dp"
+            android:fontFamily="@font/abeezee"
+            android:text=" Cauliflower cheese "
+            android:textColor="@color/textColor"
+            android:textSize="16.3sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/VeggieChilli"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/yellow"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="button for veggie chili recipe"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="188dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-18dp"
+            android:layout_marginLeft="-15dp"
+            app:srcCompat="@drawable/veggiechilli"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="170dp"
+            android:fontFamily="@font/abeezee"
+            android:text="Veggie Chilli"
+            android:textColor="@color/textColor"
+            android:textSize="17dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/oats"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/yellow"
+        android:contentDescription="button for oats recipe"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="186dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="-15dp"
+            android:layout_marginTop="-16dp"
+            app:srcCompat="@drawable/oats" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="172dp"
+            android:fontFamily="@font/abeezee"
+            android:text="Oats"
+            android:textColor="@color/textColor"
+            android:textSize="17dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/othersTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:text="Other Recipes"
+        android:textColor="@color/textColor"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/SpongeCake"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/yellow"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        android:contentDescription="button for sponge cake recipe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/TreacleSpongeImage"
+            android:layout_width="194dp"
+            android:layout_height="205dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-13dp"
+            app:srcCompat="@drawable/spongecake"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:fontFamily="@font/abeezee"
+            android:text="Sponge cake"
+            android:textColor="@color/textColor"
+            android:textSize="17dp"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="199dp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/chickenKiev"
+        android:layout_width="152dp"
+        android:layout_height="200dp"
+        android:backgroundTint="@color/yellow"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="button for chicken kiev recipe"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="190dp"
+            android:layout_height="205dp"
+            android:layout_marginTop="-18dp"
+            app:srcCompat="@drawable/chickenkiev" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="172dp"
+            android:fontFamily="@font/abeezee"
+            android:text="Chicken Kiev"
+            android:textColor="@color/textColor"
+            android:textSize="17dp" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

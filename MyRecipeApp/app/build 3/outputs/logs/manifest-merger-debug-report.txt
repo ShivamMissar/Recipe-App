@@ -1,0 +1,775 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:2:1-167:12
+INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:2:1-167:12
+INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:2:1-167:12
+INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:2:1-167:12
+MERGED from [androidx.databinding:viewbinding:7.4.0] /Users/shivammissar/.gradle/caches/transforms-3/47f23e2faf4f069f4a69f3a2dd92ecf2/transformed/jetified-viewbinding-7.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/shivammissar/.gradle/caches/transforms-3/801d3fb1ae3074e1540924cce969c447/transformed/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.7.0] /Users/shivammissar/.gradle/caches/transforms-3/769ec35c2a7aae728a5fd5e625f13985/transformed/material-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/shivammissar/.gradle/caches/transforms-3/c25b2da1bdcdd6d91a1719d3b3835823/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/shivammissar/.gradle/caches/transforms-3/97aa995cf3559eb6810d1401182dc5d6/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/shivammissar/.gradle/caches/transforms-3/9ea2a8b364b17dfbc3351467d770e9b7/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/shivammissar/.gradle/caches/transforms-3/558a8c6910ba5dfa472e079325f99bce/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:17:1-73:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/05f1b0a0b5a1a4079cf62af700b702ee/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/shivammissar/.gradle/caches/transforms-3/286d895b25a463d1e84ec06cff69c884/transformed/jetified-fragment-ktx-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/shivammissar/.gradle/caches/transforms-3/9d486ece1e524ab4530ddf00a0883fa1/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/shivammissar/.gradle/caches/transforms-3/8fd738128f5114e201597d7771359f3e/transformed/jetified-activity-ktx-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/shivammissar/.gradle/caches/transforms-3/bbfba0a99a0810d7f78d3bebbb7064e6/transformed/navigation-common-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/47b97eaeda9d00a7dbdbf4f7105403bb/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:15:1-37:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/shivammissar/.gradle/caches/transforms-3/09f34c5b07a82643dadade502e707e02/transformed/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.android.volley:volley:1.2.1] /Users/shivammissar/.gradle/caches/transforms-3/1f23a3883e45a53e9c63360c70fd2baf/transformed/jetified-volley-1.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/shivammissar/.gradle/caches/transforms-3/c1f0cf339aaaa0092ff3e2a243496537/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/shivammissar/.gradle/caches/transforms-3/4b44e9c7340275102fe1d240f54c3b4a/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shivammissar/.gradle/caches/transforms-3/e8ebd4765c9cfd6470022fb290792d38/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/781f0313be8655a19cba01fcec3a728f/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/shivammissar/.gradle/caches/transforms-3/56b8386eaa323a05563e6a42177c6638/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/shivammissar/.gradle/caches/transforms-3/8725da540c7e9021951de5a2fac27a2a/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/shivammissar/.gradle/caches/transforms-3/c863ece4c1fd3ae2e49ffb48f9f7ef1e/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/30a51c6cd63ac41872e56406b1dd293f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shivammissar/.gradle/caches/transforms-3/f2f26a16dd90a4f359c3b084bf0674e1/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/a852a08f8c55c7943592e85d28b6611e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/shivammissar/.gradle/caches/transforms-3/73fc7ee13e753690714e4f2dd1f16121/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] /Users/shivammissar/.gradle/caches/transforms-3/f8b48c00d68d6e8a1a2764d0005f9021/transformed/jetified-activity-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/a20556649b1a439a8c42769448afd795/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/7bbc3a3a5ff21567372379c90e3a5ce8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/1ae1a11ee9469c87d51f95ac18085c07/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/bb5313f065a50a9263bdadb56a3c717c/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/3296cd34f6096dc5f386b80d5ac2ccd5/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/shivammissar/.gradle/caches/transforms-3/c5242b03037ca57305eaf315f5a93b12/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/7cbe7af1ee7e91aac3c67c43b04c5977/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/5f8c5c42dadb8ffb29afbd62417beacf/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/0bfe733e605371c4091c970e694dd1af/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ac59c1c567c5dff28a91c9b3ba240185/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/258b77c601e6ea34f7e957f70d5a02d7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/92a5296a4d27103439e12c34bc999466/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/999a6ab94e4a1be261dc199b08ea5e81/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/a6eb2866db2caa93ac8958ab4f570e08/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/492b6071858f48f7e563e4a06a4c3af2/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/shivammissar/.gradle/caches/transforms-3/a6251430c2e70fabe10a3fec752451fa/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/shivammissar/.gradle/caches/transforms-3/884d799a0d2666dbc4af1975868afa08/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.8.0] /Users/shivammissar/.gradle/caches/transforms-3/c38c9897533ea665b0378c3de92802fc/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/71f541ef8a711f35bd6c187f0d357693/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f705496ddb79348a25bbf808a50da23b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/9f07c69cbb2896dbbab903deb5ccd102/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/a5705a3a37c20e3fa76c35e388343215/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/e8a80c7824a7ccd0f5a15faaff7e57e2/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3ec75608c83d34edacf2d77f6f806712/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/66ad6f9bb792f1f9c19b4e7f7cacd22c/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/shivammissar/.gradle/caches/transforms-3/7e00f8290e0e20f66b42bf7ecf7fc024/transformed/jetified-firebase-components-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/2f16f2d62ff4b5a165e6bc7df1ba2992/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/c3e03c8aca82ae825f01cd11dfccd3c9/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/0cf0744494137a07a2d1849b4617dd08/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/c8462a3d866aaa72e7bf29c5bed8c857/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/dc1565e1ff4312c8046ddae57ace7c29/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f5741b5b5b92eee8701b1b1f6da4f04d/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/555b005078d86003b0836417831dd6b3/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/83693c74f5166fb6821dc4b30a5f2371/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shivammissar/.gradle/caches/transforms-3/f1ee08e75ca5433dad4bd10697d83695/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/4e7a599df3061860e114e8760c03610e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/a88d233f8775b3ff905b44708b88dc82/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/e25c3c8e25296494cee2838c122e07a5/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8edb5b48d9700c7585781cde0ccadf23/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/shivammissar/.gradle/caches/transforms-3/1faa62accd6cb98098bab85445943ca2/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/shivammissar/.gradle/caches/transforms-3/d29380259ba797def862149da27d6ed7/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:2:1-167:12
+INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:2:1-167:12
+INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:2:1-167:12
+	package
+		INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:2:1-167:12
+		INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:2:1-167:12
+		INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:2:1-167:12
+		INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/shivammissar/.gradle/caches/transforms-3/d29380259ba797def862149da27d6ed7/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/shivammissar/.gradle/caches/transforms-3/d29380259ba797def862149da27d6ed7/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:9:22-95
+application
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:11:5-165:19
+MERGED from [com.google.android.material:material:1.7.0] /Users/shivammissar/.gradle/caches/transforms-3/769ec35c2a7aae728a5fd5e625f13985/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] /Users/shivammissar/.gradle/caches/transforms-3/769ec35c2a7aae728a5fd5e625f13985/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/shivammissar/.gradle/caches/transforms-3/c25b2da1bdcdd6d91a1719d3b3835823/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/shivammissar/.gradle/caches/transforms-3/c25b2da1bdcdd6d91a1719d3b3835823/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/shivammissar/.gradle/caches/transforms-3/09f34c5b07a82643dadade502e707e02/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/shivammissar/.gradle/caches/transforms-3/09f34c5b07a82643dadade502e707e02/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/shivammissar/.gradle/caches/transforms-3/c1f0cf339aaaa0092ff3e2a243496537/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/shivammissar/.gradle/caches/transforms-3/c1f0cf339aaaa0092ff3e2a243496537/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/shivammissar/.gradle/caches/transforms-3/4b44e9c7340275102fe1d240f54c3b4a/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/shivammissar/.gradle/caches/transforms-3/4b44e9c7340275102fe1d240f54c3b4a/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shivammissar/.gradle/caches/transforms-3/e8ebd4765c9cfd6470022fb290792d38/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shivammissar/.gradle/caches/transforms-3/e8ebd4765c9cfd6470022fb290792d38/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/shivammissar/.gradle/caches/transforms-3/8725da540c7e9021951de5a2fac27a2a/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/shivammissar/.gradle/caches/transforms-3/8725da540c7e9021951de5a2fac27a2a/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/30a51c6cd63ac41872e56406b1dd293f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/30a51c6cd63ac41872e56406b1dd293f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shivammissar/.gradle/caches/transforms-3/f2f26a16dd90a4f359c3b084bf0674e1/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shivammissar/.gradle/caches/transforms-3/f2f26a16dd90a4f359c3b084bf0674e1/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/a852a08f8c55c7943592e85d28b6611e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/a852a08f8c55c7943592e85d28b6611e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.8.0] /Users/shivammissar/.gradle/caches/transforms-3/c38c9897533ea665b0378c3de92802fc/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/shivammissar/.gradle/caches/transforms-3/c38c9897533ea665b0378c3de92802fc/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f705496ddb79348a25bbf808a50da23b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f705496ddb79348a25bbf808a50da23b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/0cf0744494137a07a2d1849b4617dd08/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/0cf0744494137a07a2d1849b4617dd08/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/dc1565e1ff4312c8046ddae57ace7c29/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/dc1565e1ff4312c8046ddae57ace7c29/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/shivammissar/.gradle/caches/transforms-3/c38c9897533ea665b0378c3de92802fc/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:16:9-41
+	android:fullBackupContent
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:14:9-54
+	android:roundIcon
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:17:9-54
+	tools:targetApi
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:20:9-29
+	android:icon
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:19:9-47
+	android:dataExtractionRules
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:13:9-65
+activity#com.example.recipeapp.mealplanner
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:22:13-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:35:9-37:71
+	android:value
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:37:13-68
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:36:13-58
+meta-data#preloaded_fonts
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:38:9-40:57
+	android:resource
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:40:13-54
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:39:13-43
+activity#com.example.recipeapp.cauliflowerCheese
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:43:13-46
+activity#com.example.recipeapp.veggieChilli
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:46:13-41
+activity#com.example.recipeapp.oats
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:49:13-33
+activity#com.example.recipeapp.chickenKiev
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:52:13-40
+activity#com.example.recipeapp.pancake
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:55:13-36
+activity#com.example.recipeapp.spongeCake
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:57:9-59:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:58:13-39
+activity#com.example.recipeapp.chickennoodleSoup
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:60:9-62:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:61:13-46
+activity#com.example.recipeapp.salmonSalad
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:63:9-65:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:64:13-40
+activity#com.example.recipeapp.chickenFriedRice
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:66:9-68:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:67:13-45
+activity#com.example.recipeapp.prawnSpaghetti
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:69:9-71:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:71:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:70:13-43
+activity#com.example.recipeapp.tunaBurger
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:72:9-74:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:73:13-39
+activity#com.example.recipeapp.spinachChicken
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:75:9-77:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:77:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:76:13-43
+activity#com.example.recipeapp.veggieBLTpage
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:78:9-80:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:80:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:79:13-42
+activity#com.example.recipeapp.falafelBurgerPage
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:81:9-83:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:83:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:82:13-46
+activity#com.example.recipeapp.tomatoRissitoPage
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:84:9-86:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:86:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:85:13-46
+activity#com.example.recipeapp.ramenNoodlesPage
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:87:9-89:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:89:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:88:13-45
+activity#com.example.recipeapp.pasta
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:90:9-92:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:92:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:91:13-34
+activity#com.example.recipeapp.updatePassword
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:93:9-95:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:95:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:94:13-43
+activity#com.example.recipeapp.updateEmail
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:96:9-98:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:98:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:97:13-40
+activity#com.example.recipeapp.forgottenPassword
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:99:9-101:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:101:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:100:13-46
+activity#com.example.recipeapp.favourites
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:102:9-104:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:104:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:103:13-39
+activity#com.example.recipeapp.manageAccount
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:105:9-107:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:107:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:106:13-42
+activity#com.example.recipeapp.settings
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:108:9-110:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:110:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:109:13-37
+activity#com.example.recipeapp.mainMenu
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:111:9-113:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:113:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:112:13-37
+activity#com.example.recipeapp.carrotSoupPage
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:114:9-116:40
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:116:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:115:13-43
+activity#com.example.recipeapp.other_recipes
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:117:9-123:20
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:119:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:118:13-42
+meta-data#android.app.lib_name
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:120:13-122:36
+	android:value
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:122:17-33
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:121:17-52
+activity#com.example.recipeapp.non_veg_recipes
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:124:9-130:20
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:126:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:125:13-44
+activity#com.example.recipeapp.vegrecipes
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:131:9-137:20
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:133:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:132:13-39
+activity#com.example.recipeapp.loginScreen
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:138:9-144:20
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:140:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:139:13-40
+activity#com.example.recipeapp.signUpScreen
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:145:9-151:20
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:147:13-37
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:146:13-41
+activity#com.example.recipeapp.MainActivity
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:152:9-164:20
+	android:exported
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:154:13-36
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:153:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:155:13-159:29
+action#android.intent.action.MAIN
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:156:17-69
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:156:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:158:17-77
+	android:name
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml:158:27-74
+uses-sdk
+INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.4.0] /Users/shivammissar/.gradle/caches/transforms-3/47f23e2faf4f069f4a69f3a2dd92ecf2/transformed/jetified-viewbinding-7.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:7.4.0] /Users/shivammissar/.gradle/caches/transforms-3/47f23e2faf4f069f4a69f3a2dd92ecf2/transformed/jetified-viewbinding-7.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/shivammissar/.gradle/caches/transforms-3/801d3fb1ae3074e1540924cce969c447/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/shivammissar/.gradle/caches/transforms-3/801d3fb1ae3074e1540924cce969c447/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /Users/shivammissar/.gradle/caches/transforms-3/769ec35c2a7aae728a5fd5e625f13985/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /Users/shivammissar/.gradle/caches/transforms-3/769ec35c2a7aae728a5fd5e625f13985/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/shivammissar/.gradle/caches/transforms-3/c25b2da1bdcdd6d91a1719d3b3835823/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/shivammissar/.gradle/caches/transforms-3/c25b2da1bdcdd6d91a1719d3b3835823/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/shivammissar/.gradle/caches/transforms-3/97aa995cf3559eb6810d1401182dc5d6/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/shivammissar/.gradle/caches/transforms-3/97aa995cf3559eb6810d1401182dc5d6/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/shivammissar/.gradle/caches/transforms-3/9ea2a8b364b17dfbc3351467d770e9b7/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/shivammissar/.gradle/caches/transforms-3/9ea2a8b364b17dfbc3351467d770e9b7/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/shivammissar/.gradle/caches/transforms-3/558a8c6910ba5dfa472e079325f99bce/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/shivammissar/.gradle/caches/transforms-3/558a8c6910ba5dfa472e079325f99bce/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/05f1b0a0b5a1a4079cf62af700b702ee/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/05f1b0a0b5a1a4079cf62af700b702ee/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/shivammissar/.gradle/caches/transforms-3/286d895b25a463d1e84ec06cff69c884/transformed/jetified-fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/shivammissar/.gradle/caches/transforms-3/286d895b25a463d1e84ec06cff69c884/transformed/jetified-fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/shivammissar/.gradle/caches/transforms-3/9d486ece1e524ab4530ddf00a0883fa1/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/shivammissar/.gradle/caches/transforms-3/9d486ece1e524ab4530ddf00a0883fa1/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/shivammissar/.gradle/caches/transforms-3/8fd738128f5114e201597d7771359f3e/transformed/jetified-activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/shivammissar/.gradle/caches/transforms-3/8fd738128f5114e201597d7771359f3e/transformed/jetified-activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/shivammissar/.gradle/caches/transforms-3/bbfba0a99a0810d7f78d3bebbb7064e6/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/shivammissar/.gradle/caches/transforms-3/bbfba0a99a0810d7f78d3bebbb7064e6/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/47b97eaeda9d00a7dbdbf4f7105403bb/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/47b97eaeda9d00a7dbdbf4f7105403bb/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/shivammissar/.gradle/caches/transforms-3/09f34c5b07a82643dadade502e707e02/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/shivammissar/.gradle/caches/transforms-3/09f34c5b07a82643dadade502e707e02/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.2.1] /Users/shivammissar/.gradle/caches/transforms-3/1f23a3883e45a53e9c63360c70fd2baf/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] /Users/shivammissar/.gradle/caches/transforms-3/1f23a3883e45a53e9c63360c70fd2baf/transformed/jetified-volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/shivammissar/.gradle/caches/transforms-3/c1f0cf339aaaa0092ff3e2a243496537/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/shivammissar/.gradle/caches/transforms-3/c1f0cf339aaaa0092ff3e2a243496537/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/shivammissar/.gradle/caches/transforms-3/4b44e9c7340275102fe1d240f54c3b4a/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /Users/shivammissar/.gradle/caches/transforms-3/4b44e9c7340275102fe1d240f54c3b4a/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shivammissar/.gradle/caches/transforms-3/e8ebd4765c9cfd6470022fb290792d38/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/shivammissar/.gradle/caches/transforms-3/e8ebd4765c9cfd6470022fb290792d38/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/781f0313be8655a19cba01fcec3a728f/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/781f0313be8655a19cba01fcec3a728f/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/shivammissar/.gradle/caches/transforms-3/56b8386eaa323a05563e6a42177c6638/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/shivammissar/.gradle/caches/transforms-3/56b8386eaa323a05563e6a42177c6638/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/shivammissar/.gradle/caches/transforms-3/8725da540c7e9021951de5a2fac27a2a/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/shivammissar/.gradle/caches/transforms-3/8725da540c7e9021951de5a2fac27a2a/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/shivammissar/.gradle/caches/transforms-3/c863ece4c1fd3ae2e49ffb48f9f7ef1e/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/shivammissar/.gradle/caches/transforms-3/c863ece4c1fd3ae2e49ffb48f9f7ef1e/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/30a51c6cd63ac41872e56406b1dd293f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/30a51c6cd63ac41872e56406b1dd293f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shivammissar/.gradle/caches/transforms-3/f2f26a16dd90a4f359c3b084bf0674e1/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/shivammissar/.gradle/caches/transforms-3/f2f26a16dd90a4f359c3b084bf0674e1/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/a852a08f8c55c7943592e85d28b6611e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/a852a08f8c55c7943592e85d28b6611e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/shivammissar/.gradle/caches/transforms-3/73fc7ee13e753690714e4f2dd1f16121/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/shivammissar/.gradle/caches/transforms-3/73fc7ee13e753690714e4f2dd1f16121/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/shivammissar/.gradle/caches/transforms-3/f8b48c00d68d6e8a1a2764d0005f9021/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/shivammissar/.gradle/caches/transforms-3/f8b48c00d68d6e8a1a2764d0005f9021/transformed/jetified-activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/a20556649b1a439a8c42769448afd795/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/a20556649b1a439a8c42769448afd795/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/7bbc3a3a5ff21567372379c90e3a5ce8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/7bbc3a3a5ff21567372379c90e3a5ce8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/1ae1a11ee9469c87d51f95ac18085c07/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/1ae1a11ee9469c87d51f95ac18085c07/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/bb5313f065a50a9263bdadb56a3c717c/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/bb5313f065a50a9263bdadb56a3c717c/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/3296cd34f6096dc5f386b80d5ac2ccd5/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/3296cd34f6096dc5f386b80d5ac2ccd5/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/shivammissar/.gradle/caches/transforms-3/c5242b03037ca57305eaf315f5a93b12/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/shivammissar/.gradle/caches/transforms-3/c5242b03037ca57305eaf315f5a93b12/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/7cbe7af1ee7e91aac3c67c43b04c5977/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/7cbe7af1ee7e91aac3c67c43b04c5977/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/5f8c5c42dadb8ffb29afbd62417beacf/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/5f8c5c42dadb8ffb29afbd62417beacf/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/0bfe733e605371c4091c970e694dd1af/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/0bfe733e605371c4091c970e694dd1af/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ac59c1c567c5dff28a91c9b3ba240185/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ac59c1c567c5dff28a91c9b3ba240185/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/258b77c601e6ea34f7e957f70d5a02d7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/258b77c601e6ea34f7e957f70d5a02d7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/92a5296a4d27103439e12c34bc999466/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/92a5296a4d27103439e12c34bc999466/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/999a6ab94e4a1be261dc199b08ea5e81/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/999a6ab94e4a1be261dc199b08ea5e81/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/a6eb2866db2caa93ac8958ab4f570e08/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/a6eb2866db2caa93ac8958ab4f570e08/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/492b6071858f48f7e563e4a06a4c3af2/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/492b6071858f48f7e563e4a06a4c3af2/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/shivammissar/.gradle/caches/transforms-3/a6251430c2e70fabe10a3fec752451fa/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/shivammissar/.gradle/caches/transforms-3/a6251430c2e70fabe10a3fec752451fa/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/shivammissar/.gradle/caches/transforms-3/884d799a0d2666dbc4af1975868afa08/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/shivammissar/.gradle/caches/transforms-3/884d799a0d2666dbc4af1975868afa08/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/shivammissar/.gradle/caches/transforms-3/c38c9897533ea665b0378c3de92802fc/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/shivammissar/.gradle/caches/transforms-3/c38c9897533ea665b0378c3de92802fc/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/71f541ef8a711f35bd6c187f0d357693/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/71f541ef8a711f35bd6c187f0d357693/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f705496ddb79348a25bbf808a50da23b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f705496ddb79348a25bbf808a50da23b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/9f07c69cbb2896dbbab903deb5ccd102/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/9f07c69cbb2896dbbab903deb5ccd102/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/a5705a3a37c20e3fa76c35e388343215/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/a5705a3a37c20e3fa76c35e388343215/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/e8a80c7824a7ccd0f5a15faaff7e57e2/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/e8a80c7824a7ccd0f5a15faaff7e57e2/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3ec75608c83d34edacf2d77f6f806712/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3ec75608c83d34edacf2d77f6f806712/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/66ad6f9bb792f1f9c19b4e7f7cacd22c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/66ad6f9bb792f1f9c19b4e7f7cacd22c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/shivammissar/.gradle/caches/transforms-3/7e00f8290e0e20f66b42bf7ecf7fc024/transformed/jetified-firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] /Users/shivammissar/.gradle/caches/transforms-3/7e00f8290e0e20f66b42bf7ecf7fc024/transformed/jetified-firebase-components-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/2f16f2d62ff4b5a165e6bc7df1ba2992/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/2f16f2d62ff4b5a165e6bc7df1ba2992/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/c3e03c8aca82ae825f01cd11dfccd3c9/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/c3e03c8aca82ae825f01cd11dfccd3c9/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/0cf0744494137a07a2d1849b4617dd08/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/0cf0744494137a07a2d1849b4617dd08/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/c8462a3d866aaa72e7bf29c5bed8c857/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/c8462a3d866aaa72e7bf29c5bed8c857/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/dc1565e1ff4312c8046ddae57ace7c29/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/dc1565e1ff4312c8046ddae57ace7c29/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f5741b5b5b92eee8701b1b1f6da4f04d/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f5741b5b5b92eee8701b1b1f6da4f04d/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/555b005078d86003b0836417831dd6b3/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/555b005078d86003b0836417831dd6b3/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/83693c74f5166fb6821dc4b30a5f2371/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/shivammissar/.gradle/caches/transforms-3/83693c74f5166fb6821dc4b30a5f2371/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shivammissar/.gradle/caches/transforms-3/f1ee08e75ca5433dad4bd10697d83695/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/shivammissar/.gradle/caches/transforms-3/f1ee08e75ca5433dad4bd10697d83695/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/4e7a599df3061860e114e8760c03610e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/4e7a599df3061860e114e8760c03610e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/a88d233f8775b3ff905b44708b88dc82/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/a88d233f8775b3ff905b44708b88dc82/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/e25c3c8e25296494cee2838c122e07a5/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/e25c3c8e25296494cee2838c122e07a5/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8edb5b48d9700c7585781cde0ccadf23/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8edb5b48d9700c7585781cde0ccadf23/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/shivammissar/.gradle/caches/transforms-3/1faa62accd6cb98098bab85445943ca2/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/shivammissar/.gradle/caches/transforms-3/1faa62accd6cb98098bab85445943ca2/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/shivammissar/.gradle/caches/transforms-3/d29380259ba797def862149da27d6ed7/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.50.2] /Users/shivammissar/.gradle/caches/transforms-3/d29380259ba797def862149da27d6ed7/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shivammissar/Documents/Uni/MPA - Shivam Missar CW/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:18:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:17:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.4.1] /Users/shivammissar/.gradle/caches/transforms-3/ca606e4dfe62e15e5a3732b73c942f64/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:20:17-111
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.1.0] /Users/shivammissar/.gradle/caches/transforms-3/800091282b5c2ea6827516f83015e4fd/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/acc108bd122a3bc878b43436c65a387f/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.1.0] /Users/shivammissar/.gradle/caches/transforms-3/ada45c518ecd8fba41d67d4ed8714b7c/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/shivammissar/.gradle/caches/transforms-3/09f34c5b07a82643dadade502e707e02/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/shivammissar/.gradle/caches/transforms-3/09f34c5b07a82643dadade502e707e02/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/shivammissar/.gradle/caches/transforms-3/09f34c5b07a82643dadade502e707e02/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/shivammissar/.gradle/caches/transforms-3/09f34c5b07a82643dadade502e707e02/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/8b62b54df68c451b0174e821813a9f0a/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.2.0] /Users/shivammissar/.gradle/caches/transforms-3/b833aceaee203f96534f1115377bbaf4/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/30a51c6cd63ac41872e56406b1dd293f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/30a51c6cd63ac41872e56406b1dd293f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/30a51c6cd63ac41872e56406b1dd293f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/30a51c6cd63ac41872e56406b1dd293f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/a852a08f8c55c7943592e85d28b6611e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/a852a08f8c55c7943592e85d28b6611e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/shivammissar/.gradle/caches/transforms-3/a852a08f8c55c7943592e85d28b6611e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f705496ddb79348a25bbf808a50da23b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f705496ddb79348a25bbf808a50da23b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/0cf0744494137a07a2d1849b4617dd08/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shivammissar/.gradle/caches/transforms-3/0cf0744494137a07a2d1849b4617dd08/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shivammissar/.gradle/caches/transforms-3/3cae7c8c8f23bdaf19a848509038d9e0/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/shivammissar/.gradle/caches/transforms-3/87b1e01e27a3d9a57b2b2c0a651aa766/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f705496ddb79348a25bbf808a50da23b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f705496ddb79348a25bbf808a50da23b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/shivammissar/.gradle/caches/transforms-3/f705496ddb79348a25bbf808a50da23b/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

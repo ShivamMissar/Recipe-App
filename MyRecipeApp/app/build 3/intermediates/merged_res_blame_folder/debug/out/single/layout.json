@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_prawn_spaghetti.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_prawn_spaghetti.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_sponge_cake.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_sponge_cake.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_tomato_rissito_page.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_tomato_rissito_page.xml"
+    },
+    {
+        "merged": "com.example.recipeapp-mergeDebugResources-48:/layout/activity_tuna_burger.xml",
+        "source": "com.example.recipeapp-main-51:/layout/activity_tuna_burger.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_chicken_fried_rice.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_chicken_fried_rice.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_chicken_kiev.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_chicken_kiev.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_sign_up_screen.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_sign_up_screen.xml"
+    },
+    {
+        "merged": "com.example.recipeapp-mergeDebugResources-48:/layout/activity_sponge_cake.xml",
+        "source": "com.example.recipeapp-main-51:/layout/activity_sponge_cake.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_login_screen2.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_login_screen2.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_mealplanner.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_mealplanner.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_pancake.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_pancake.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_update_password.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_update_password.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_spinach_chicken.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_spinach_chicken.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_other_recipes.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_other_recipes.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/single_list_item.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/single_list_item.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_falafel_burger_page.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_falafel_burger_page.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_carrot_soup_page.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_carrot_soup_page.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_forgotten_password.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_forgotten_password.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_favourites.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_favourites.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_oats.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_oats.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_update_email.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_update_email.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_tuna_burger.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_tuna_burger.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_veg_recipes.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_veg_recipes.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_chickennoodle_soup.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_chickennoodle_soup.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_salmon_salad.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_salmon_salad.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_main_menu.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_main_menu.xml"
+    },
+    {
+        "merged": "com.example.recipeapp-mergeDebugResources-48:/layout/activity_tomato_rissito_page.xml",
+        "source": "com.example.recipeapp-main-51:/layout/activity_tomato_rissito_page.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_manage_account.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_manage_account.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_cauliflower_cheese.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_cauliflower_cheese.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_non_veg_recipes.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_non_veg_recipes.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_pasta.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_pasta.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_veggie_bltpage.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_veggie_bltpage.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_veggie_chilli.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_veggie_chilli.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_main.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-mergeDebugResources-48:/layout/activity_ramen_noodles_page.xml",
+        "source": "/Users/shivammissar/.gradle/daemon/7.5/com.example.recipeapp-main-51:/layout/activity_ramen_noodles_page.xml"
+    }
+]

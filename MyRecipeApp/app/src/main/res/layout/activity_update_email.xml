@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".updateEmail">
+
+
+    <TextView
+        android:id="@+id/updateEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/hintcolor"
+        android:fontFamily="@font/adamina"
+        android:text="Update Email"
+        android:textColor="@color/textColor"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+
+    <EditText
+        android:id="@+id/newEmail"
+        android:layout_width="318dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:background="@drawable/inputbox"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hintcolor"
+        android:hint="Enter your new email"
+        android:inputType="textEmailAddress"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <Button
+        android:id="@+id/reAuthButton"
+        android:layout_width="281dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:text="Authenticate"
+        android:contentDescription="button to submit your email and password"
+        android:textAllCaps="false"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <EditText
+        android:id="@+id/reAuthEmail"
+        android:layout_width="320dp"
+        android:textColorHint="@color/hintcolor"
+        android:layout_height="49dp"
+        android:visibility="visible"
+        android:background="@drawable/inputbox"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/reAuthPassword"
+        android:layout_width="320dp"
+        android:layout_height="49dp"
+        android:textColorHint="@color/hintcolor"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/inputbox"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/updateEmailButton"
+        android:layout_width="281dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:text="Update Email"
+        android:textColor="@color/textColor"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/abeezee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <TextView
+        android:id="@+id/forgotPasswordFromEmail"
+        android:layout_width="156dp"
+        android:layout_height="34dp"
+        android:contentDescription="link for forgot password"
+        android:onClick="forgotPassword"
+        android:textAlignment="center"
+        android:text="Forgot Password?"
+        android:textColor="@color/links"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+</androidx.constraintlayout.widget.ConstraintLayout>
